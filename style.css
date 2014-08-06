@@ -1,27 +1,53 @@
-/* ========= Header ========= */
+/*color palette: http://paletton.com/#uid=53x0F0kVWDksASpLdURVUrUVnlv*/
 
-
-/* ========= Content ========= */
-
-
-/* ========= Footer ========= */
-
-
-/* ========= HOMEPAGE ========= */
-
-
-/* ========= Photo ========= */
-
-
-/* ========= ABOUT PAGE ========= */
-
-
-#signature {
-	text-align: right;
+/* -- LINKS -- */
+a:link {
+	color: #00AA1E;
 }
 
-#abouttext {
+a:visited {
+	color: #00AA1E;
+} 
+
+a:hover {
+	color: #00AA1E;
+}
+
+a:active {
+	color: #00AA1E;
+}
+
+/* -- MAIN -- */
+
+#header {
+	text-align: center;
+	color: #1B0276;
+}
+
+#boop {
+	margin: 20px 10%;
 	text-align: justify;
+	font-size: 17.5px;
 }
+
+#selfie {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	width: 200px;	
+	border: 2px solid #130A89;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+#sloth {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footer {
+	text-align: center;
+}
+
 
 
