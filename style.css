@@ -2,26 +2,26 @@
 
 /* -- LINKS -- */
 a:link {
-	color: #00AA1E;
+	color: #2DBD00;
 }
 
 a:visited {
-	color: #00AA1E;
+	color: #2DBD00;
 } 
 
 a:hover {
-	color: #00AA1E;
+	color: #2DBD00;
 }
 
 a:active {
-	color: #00AA1E;
+	color: #2DBD00;
 }
 
 /* -- MAIN -- */
 
 #header {
 	text-align: center;
-	color: #1B0276;
+	color: #2DBD00;
 }
 
 #boop {
@@ -35,14 +35,40 @@ a:active {
 	margin-left: auto;
 	margin-bottom: 10px;
 	width: 200px;	
-	border: 2px solid #130A89;
+	border: 2px solid #4FF51A;
 	border-bottom-right-radius: 20px;
 	border-top-left-radius: 20px;
 }
 
-#sloth {
-	margin-right: auto;
-	margin-left: auto;
+#storiestable {
+	padding: 5%;
+	margin: 5%;
+	width: 90%;
+	text-align: center;
+}
+
+#storiestable td {
+	padding-bottom: 5%;
+	width: 50%;
+}
+
+#leftart {
+	width: 300px;
+	border: solid 3px #239100;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+#rightart {
+	width: 300px;
+	border: solid 3px #2DBD00;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#slothtext {
+	font-size: 17px;
+	text-align: justify;
 }
 
 .footer {
